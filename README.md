@@ -109,8 +109,8 @@ The Tableau Public dashboard includes:
 
 The original dashboard was also developed in Amazon QuickSight.
 
-[View the QuickSight dashboard PDF](<img width="715" height="710" alt="image" src="https://github.com/user-attachments/assets/48fb051a-a72c-4f42-8d87-f88f10345ee5" />
-)
+[View the QuickSight dashboard PDF](<img width="679" height="711" alt="image" src="https://github.com/user-attachments/assets/90139312-445b-4287-b96d-935b672bd09b" />)
+
 
 ## Project Files
 
