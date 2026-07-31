@@ -1,141 +1,139 @@
-Retail Inventory Intelligence Project
+# Retail Inventory Intelligence Project
 
-Project Overview
+Retail inventory analytics project using Excel VBA, Amazon QuickSight, and Tableau Public to analyze revenue, sales performance, forecast accuracy, stockout risk, and recommended inventory actions.
 
-This project analyzes retail inventory, sales, forecast performance, and inventory risk across 73,100 records. It combines Excel, VBA automation, PivotTables, PivotCharts, and Amazon QuickSight to identify stockout risk, excess inventory, forecast gaps, revenue patterns, and recommended inventory actions.
+## Live Interactive Dashboard
 
-Business Objective
+[View the Tableau Public dashboard](https://public.tableau.com/views/RetailInventoryIntelligenceDashboard/RetailInventoryIntelligenceDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-Build an automated inventory-analysis workflow that:
+## Project Overview
 
-Cleans and validates retail inventory data
+This project analyzes 73,100 retail inventory records to identify revenue trends, forecast accuracy, stockout risk, inventory gaps, and recommended inventory actions.
 
-Calculates revenue, forecast error, and inventory gaps
+The project combines Excel VBA automation, Amazon QuickSight, and Tableau Public to create a complete workflow from data preparation and exception reporting to dashboard development and business insight generation.
 
-Flags stockout and excess-inventory risk
+## Business Objectives
 
-Generates recommended inventory actions
+- Analyze total revenue and units sold
+- Evaluate forecast accuracy
+- Identify stockout-risk records
+- Review revenue performance by category and region
+- Track monthly revenue trends
+- Generate recommended inventory actions
+- Build interactive dashboards for business decision-making
 
-Creates an automated exception report
+## Tools Used
 
-Presents results through Excel and Amazon QuickSight dashboards
+- Microsoft Excel
+- Excel VBA
+- PivotTables and PivotCharts
+- Amazon QuickSight
+- Tableau Public
+- Data cleaning and validation
+- KPI reporting
+- Inventory and forecast analysis
 
-Dataset
+## Dataset
 
-The dataset contains 73,100 records covering:
+The project uses a publicly available retail inventory dataset containing 73,100 records.
 
-Stores and products
+This portfolio project does not contain confidential Amazon, employer, customer, or employee information.
 
-Product categories and regions
+## Excel VBA Automation
 
-Inventory levels
+The Excel workbook includes automated calculations and reporting for:
 
-Units sold and ordered
+- Revenue
+- Forecast error
+- Inventory gap
+- Stockout risk
+- Excess inventory
+- Recommended inventory action
+- Exception reporting
 
-Demand forecasts
+The workbook also contains:
 
-Price and discount information
+- Raw Data
+- Clean Data
+- Pivot Data
+- Dashboard
+- Exception Report
+- Documentation
 
-Promotions, weather, and seasonality
+## Key Performance Indicators
 
-Tools Used
+- Total Revenue: $550.23M
+- Total Units Sold: 9.98M
+- Average Forecast Error: -5.03
+- Stockout Risk Records: 2.59K
 
-Microsoft Excel
+## Dashboard Analysis
 
-Excel VBA
+The Tableau Public dashboard includes:
 
-PivotTables and PivotCharts
+- Total Revenue KPI
+- Total Units Sold KPI
+- Average Forecast Error KPI
+- Stockout Risk Count KPI
+- Revenue by Category
+- Revenue by Region
+- Monthly Revenue Trend
+- Recommended Inventory Actions
+- Stockout Risk Distribution
+- Revenue vs Forecast Error scatter plot
+- Interactive Category, Region, and Seasonality filters
 
-Amazon QuickSight
+## Key Findings
 
-VBA Automation
+- Furniture generated the highest revenue among the product categories.
+- The East region generated the highest regional revenue.
+- Approximately 3.5% of records were classified as stockout risk.
+- Most records were recommended for reduced ordering.
+- Stockout-risk records showed lower revenue and more negative forecast error than non-risk records.
+- January 2024 contains partial-month data and should be interpreted carefully in the monthly trend.
 
-The macro-enabled workbook automates:
+## Recommended Actions
 
-Revenue calculation
+- Prioritize replenishment for stockout-risk records.
+- Reduce ordering for products with excess inventory.
+- Maintain current inventory levels for balanced products.
+- Review products with large forecast errors.
+- Continue monitoring category and regional performance through interactive filters.
 
-Forecast-error calculation
+## Dashboard Preview
 
-Inventory-gap calculation
+![Retail Inventory Intelligence Tableau Dashboard]<img width="1919" height="1015" alt="image" src="https://github.com/user-attachments/assets/12853e3e-5197-4c1c-99cb-131cd912ffd6" />
 
-Stockout-risk classification
 
-Excess-inventory classification
+## Amazon QuickSight Dashboard
 
-Recommended-action assignment
+The original dashboard was also developed in Amazon QuickSight.
 
-Exception-report generation
+[View the QuickSight dashboard PDF](Retail_Inventory_Over_2026-07-26T02_45_11.pdf)
 
-Workbook Structure
+## Project Files
 
-Raw_Data — original retail inventory data
+- `Retail_Inventory_Intelligence_Project_.xlsm` — Excel VBA workbook
+- `Retail Inventory Intelligence Dashboard.png` — Tableau dashboard image
+- `Retail_Inventory_Over_2026-07-26T02_45_11.pdf` — Amazon QuickSight dashboard export
+- `README.md` — Project documentation
 
-Clean_Data — cleaned data with calculated fields and risk classifications
+## Skills Demonstrated
 
-Pivot_Data — category, region, action, and stockout-risk summaries
+- Excel VBA
+- Data cleaning
+- Data validation
+- Inventory analysis
+- Forecast analysis
+- Root cause analysis
+- KPI reporting
+- Dashboard development
+- Tableau Public
+- Amazon QuickSight
+- Business intelligence
+- Supply chain analytics
+- Operational decision support
 
-Dashboard — Excel dashboard
+## Author
 
-Exception_Report — records requiring replenishment or order reduction
-
-Documentation — project scope, methods, tools, and results
-
-Key Results
-
-Total Revenue: $550.23M
-
-Total Units Sold: 9.98M
-
-Average Forecast Error: -5.03
-
-Stockout Risk: 2,585 records (4%)
-
-No Stockout Risk: 70,515 records (96%)
-
-Recommended actions:
-
-Maintain Level: 23,430 records
-
-Reduce Ordering: 47,085 records
-
-Replenish Inventory: 2,585 records
-
-Dashboard Analysis
-
-The Excel and QuickSight dashboards include:
-
-Total revenue
-
-Total units sold
-
-Average forecast error
-
-Revenue by category
-
-Revenue by region
-
-Monthly revenue trend
-
-Recommended actions
-
-Stockout-risk distribution
-
-Region, category, and seasonality filters
-
-Business Value
-
-The project demonstrates how inventory and sales data can be converted into actionable operational insights. The automated exception report helps decision-makers prioritize replenishment, reduce excess ordering, and monitor forecast accuracy.
-
-Important Note
-
-January 2024 contains partial-month data and should be interpreted accordingly when reviewing monthly trends.
-
-Files
-
-Retail_Inventory_Intelligence_Project.xlsm — macro-enabled Excel workbook
-
-Dashboard screenshots or exported PDF may be added to a screenshots folder
-
-Skills Demonstrated
-
-Excel VBA, data cleaning, data validation, inventory analysis, forecast analysis, exception reporting, KPI reporting, dashboard development, PivotTables, PivotCharts, Amazon QuickSight, root-cause analysis, and operational decision support.
+Manpreet Kaur
