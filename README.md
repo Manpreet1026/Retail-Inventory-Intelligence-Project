@@ -109,7 +109,8 @@ The Tableau Public dashboard includes:
 
 The original dashboard was also developed in Amazon QuickSight.
 
-[View the QuickSight dashboard PDF](Retail_Inventory_Over_2026-07-26T02_45_11.pdf)
+[View the QuickSight dashboard PDF](<img width="715" height="710" alt="image" src="https://github.com/user-attachments/assets/48fb051a-a72c-4f42-8d87-f88f10345ee5" />
+)
 
 ## Project Files
 
