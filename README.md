@@ -115,8 +115,8 @@ The original dashboard was also developed in Amazon QuickSight.
 ## Project Files
 
 - `Retail_Inventory_Intelligence_Project_.xlsm` — Excel VBA workbook
-- `Retail Inventory Intelligence Dashboard.png` — Tableau dashboard image
-- `Retail_Inventory_Over_2026-07-26T02_45_11.pdf` — Amazon QuickSight dashboard export
+- `Retail_Inventory_Intelligence_Tableau_Dashboard.png` — Tableau dashboard image
+- `Retail_Inventory_Intelligence_Quicksight.pdf` — Amazon QuickSight dashboard export
 - `README.md` — Project documentation
 
 ## Skills Demonstrated
